@@ -1,5 +1,4 @@
 
-
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -15,51 +14,28 @@ body {
   width: 420px;
 }
 
-h1{
-  background-color: #aaa;
-   width: 400px;
-   border: 10px solid darkgray;
-   padding: 25px;
-   margin: 10px;
-   text-align: left;
-
-}
-
-h3 {
-  background-color: #aaa;
-  font-size: 1.5em;
-  font-weight: normal;
-  margin-top: -100px;
-  margin-right: 50px; /* counts toward width */
-  margin-bottom: 50px;
-  margin-left: 50px; /* counts toward width */
-  padding-top: 3px;
-  padding-left: 25px;
-  padding-bottom: 25px;
-  padding-right: 25px;
-  width: 350px; /* counts toward width */
-  display: block;
-  float: left;
-  text-align: left;
-}
-
-section container.nav .arrow-left {
-  line-height: 420px;
-  display: inline-block;
-  float:left;
-}
-
-restaurant-list.arrow-right {
-  float: right;
-  display: inline-block;
-  float:right;
-
-}
-
 nav {
   background-color: #000;
-  margin: 40px auto
-  padding: 30px 30px 30px 30px;
-  position:0;
-  width: 520px;
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+}
+.restaurant-list{
+  padding-top: 50px;
+}
+.content h1{
+  background-color: #aaa;
+  border: 5px solid: #333;
+  margin: 50px;
+  width: 250px;
+}
+
+ .content h3 {
+  background-color: #aaa;
+  /*border: 4px solid #fff;*/
+  float: left;
+  margin: 3%
+  padding: 2%
+  width: 40%;
 }
