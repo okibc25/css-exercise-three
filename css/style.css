@@ -12,6 +12,7 @@ body {
 .container{
   margin: 0 auto;
   width: 420px;
+
 }
 
 nav {
@@ -28,29 +29,41 @@ nav {
   margin-right: 50px; /* counts toward width */
   margin-bottom: 50px;
   margin-left: 50px; /* counts toward width */
-  padding-top: 50px;
-  padding-right: 50px; /* counts toward width */
-  padding-bottom: 50px;
-  padding-left: 50px; /* counts toward width */
-  width: 450px;
+  padding-top: 60px;
+  padding-right: 40px; /* counts toward width */
+  padding-bottom: 60px;
+  padding-left: 40px; /* counts toward width */
+  border: 50px;
+  width: 420px;
 }
-.content h1 {
+
+.content {
+  width: 90%;
+  float:left;
+
+}
+.content > h1 {
   font-size: 2.0em;
+  font-weight: 500;
+  display:table;
   margin-bottom: 0;
 }
 
-.content h3 {
+.content > h3 {
 font-size: 1.5em;
-font-weight:normal;
 margin-top: 0;
-line-height: 25px;
+line-height: 35px;
 
 }
+.regular-arrow {
+
+}
+
 .arrow-left {
 float:left;
 
 }
 
 .arrow-right {
-
+float:right;
 }
