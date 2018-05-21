@@ -10,60 +10,47 @@ body {
 }
 
 .container{
+  width: 90%;
+  float: left;
   margin: 0 auto;
   width: 420px;
-
 }
 
 nav {
   background-color: #000;
   padding: 10px 0 15px 15px;
   height: 50px;
-  width: 450px;
   margin: 0 auto;
+  width: 420px;
 }
 
 .restaurant-list{
   background: #aaa;
-  margin-top: 50px;
-  margin-right: 50px; /* counts toward width */
-  margin-bottom: 50px;
-  margin-left: 50px; /* counts toward width */
-  padding-top: 60px;
-  padding-right: 40px; /* counts toward width */
-  padding-bottom: 60px;
-  padding-left: 40px; /* counts toward width */
-  border: 50px;
+  margin: 0 auto;
   width: 420px;
 }
 
-.content {
-  width: 90%;
-  float:left;
-
-}
 .content > h1 {
   font-size: 2.0em;
-  font-weight: 500;
-  display:table;
-  margin-bottom: 0;
+  font-weight: 700;
+  padding-top: 25px;
+  padding-left: 15px;
 }
 
 .content > h3 {
 font-size: 1.5em;
-margin-top: 0;
-line-height: 35px;
+padding-left: 15px;
+padding-bottom: 25px;
+border-bottom: 1px solid #444;
 
 }
-.regular-arrow {
-
-}
-
 .arrow-left {
-float:left;
-
+ position: fixed;
 }
-
 .arrow-right {
-float:right;
+  position: relative;
+  float:right;
+  top: -50px;
+  height:auto;
+  width: 20%;
 }
